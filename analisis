@@ -1,0 +1,3 @@
+Q-Learning klasik menggunakan tabel Q untuk menyimpan nilai untuk setiap  state-action. Ini tidak mudah untuk state space kontinu atau sangat besar (misalnya image pixels).
+DQN menggunakan neural network sebagai function approximator, memungkinkan generalisasi ke state yang belum pernah dilihat.
+DQN memerlukan jutaan sample untuk konvergen, jauh lebih banyak dari Q-Learning pada problem sederhana.ini membuat pengolahan data menjadi lebih lama.
